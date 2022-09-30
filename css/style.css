@@ -1,4 +1,4 @@
-  *,
+    *,
   *::after,
   *::before {
     margin: 0;
@@ -167,6 +167,7 @@ img {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
+  padding-top: 4rem;
 }
 
 .about_grid-item_02 {
@@ -183,12 +184,17 @@ img {
   grid-row-end: 3; 
 }
 
+span {
+  content: "\2014";
+}
+
 /* footer style */
 footer {
-  text-align: center;
+  text-align: right;
   font-size: small;
   color: #fffafa;
   background-color: #28282d;
   padding-top: 0.50rem;
   padding-bottom: 0.50rem;
+  padding-right: 1rem;
 }
