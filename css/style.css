@@ -33,6 +33,18 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.header-wetlands {
+  overflow: hidden;
+  padding: 1rem 2rem 1rem 1rem;
+  background-color: #28282d;
+  row-gap: 1rem;
+  object-fit: fill;
+  display: grid;
+  grid-template-areas:
+    "page-title navbar";
+  grid-template-columns: 1fr 1fr;
+}
+
 .header-about {
   overflow: hidden;
   padding: 1rem 2rem 1rem 1rem;
